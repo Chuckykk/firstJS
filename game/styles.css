@@ -58,8 +58,5 @@ div {
   }
 }
 ul:hover {
-  list-style-type: none;
-  transform: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 2s infinite;
+  transform: scale(0.5, 1.5) skewX(30deg);
 }
