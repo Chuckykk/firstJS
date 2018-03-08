@@ -1,15 +1,13 @@
-body{
-    background-color: rgba(0, 0, 0, 0.925);
-    color: white;
-    text-align: center;
-    text-decoration-color: blue;
+body {
+  background-color: rgba(0, 0, 0, 0.925);
+  color: white;
+  text-align: center;
+  text-decoration-color: blue;
 }
-
-header{
-    font-size: 200px;
-    font-family: "fantasy";
+header {
+  font-size: 200px;
+  font-family: "fantasy";
 }
-
-ul{
-    font-size: 50px;
+ul {
+  font-size: 50px;
 }
