@@ -1,5 +1,13 @@
 @almostBlack: rgba(0, 0, 0, 0.925);
 
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+
 body{
     background-color: @almostBlack;
     color: white;
@@ -37,7 +45,7 @@ div {
     }
 
     30%{
-        transform: matrix(200)
+        transform: skewX(100deg)
     }
 
     50% {
@@ -48,7 +56,7 @@ div {
     }
 
     60%{
-        transform: matrix(300)
+        transform: skewY(150deg)
     }
     75% {
       right: 120px;
@@ -58,16 +66,19 @@ div {
     }
 
     80%{
-        transform: matrix(150)
+        transform: scaleX(100deg)
     }
     100% {
       right: 0;
       left: 50;
     }
-  }
+}
 }
 
 ul{
     font-size: 50px;
     list-style-type: none;
-}
+    transform: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
