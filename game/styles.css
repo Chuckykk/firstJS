@@ -1,8 +1,9 @@
 body {
-  background-color: rgba(238, 14, 14, 0.925);
+  background-color: rgba(0, 0, 0, 0.925);
   color: white;
   text-align: center;
   text-decoration-color: blue;
+  list-style: none;
 }
 header {
   font-size: 200px;
