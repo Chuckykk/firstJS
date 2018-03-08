@@ -3,7 +3,6 @@ body {
   color: white;
   text-align: center;
   text-decoration-color: blue;
-  list-style-type: none;
 }
 header {
   font-size: 200px;
@@ -11,4 +10,5 @@ header {
 }
 ul {
   font-size: 50px;
+  list-style-type: none;
 }
